@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56E8106292D149E00393346 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8105292D149E00393346 /* NotesViewController.swift */; };
+		B56E8108292D6BBA00393346 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8107292D6BBA00393346 /* NoteCell.swift */; };
+		B56E810A292D6D6E00393346 /* AddNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8109292D6D6E00393346 /* AddNoteCell.swift */; };
+		B56E810E292D6E2F00393346 /* AddNoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E810D292D6E2F00393346 /* AddNoteDelegate.swift */; };
+		B56E8110292D6E4800393346 /* ShortNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E810F292D6E4800393346 /* ShortNote.swift */; };
 		B5C561BE291051AF00806C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C561BD291051AF00806C59 /* AppDelegate.swift */; };
 		B5C561C0291051AF00806C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C561BF291051AF00806C59 /* SceneDelegate.swift */; };
 		B5C561C2291051AF00806C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C561C1291051AF00806C59 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B56E8105292D149E00393346 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		B56E8107292D6BBA00393346 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		B56E8109292D6D6E00393346 /* AddNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCell.swift; sourceTree = "<group>"; };
+		B56E810D292D6E2F00393346 /* AddNoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteDelegate.swift; sourceTree = "<group>"; };
+		B56E810F292D6E4800393346 /* ShortNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortNote.swift; sourceTree = "<group>"; };
 		B5C561BA291051AF00806C59 /* mkdemkov-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mkdemkov-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C561BD291051AF00806C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C561BF291051AF00806C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +72,11 @@
 				B5C561BF291051AF00806C59 /* SceneDelegate.swift */,
 				B5C561C1291051AF00806C59 /* ViewController.swift */,
 				B5C561D1291059DC00806C59 /* UIView_ext.swift */,
+				B56E8105292D149E00393346 /* NotesViewController.swift */,
+				B56E8107292D6BBA00393346 /* NoteCell.swift */,
+				B56E8109292D6D6E00393346 /* AddNoteCell.swift */,
+				B56E810D292D6E2F00393346 /* AddNoteDelegate.swift */,
+				B56E810F292D6E4800393346 /* ShortNote.swift */,
 				B5C561C6291051B000806C59 /* Assets.xcassets */,
 				B5C561C8291051B000806C59 /* LaunchScreen.storyboard */,
 				B5C561CB291051B000806C59 /* Info.plist */,
@@ -142,8 +157,13 @@
 			files = (
 				B5C561D2291059DC00806C59 /* UIView_ext.swift in Sources */,
 				B5C561D4291066E800806C59 /* ColorPaletteView.swift in Sources */,
+				B56E8106292D149E00393346 /* NotesViewController.swift in Sources */,
+				B56E810A292D6D6E00393346 /* AddNoteCell.swift in Sources */,
+				B56E8110292D6E4800393346 /* ShortNote.swift in Sources */,
 				B5C561C2291051AF00806C59 /* ViewController.swift in Sources */,
 				B5C561BE291051AF00806C59 /* AppDelegate.swift in Sources */,
+				B56E810E292D6E2F00393346 /* AddNoteDelegate.swift in Sources */,
+				B56E8108292D6BBA00393346 /* NoteCell.swift in Sources */,
 				B5C561C0291051AF00806C59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QD698DB2FS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mkdemkov-3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,6 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QD698DB2FS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mkdemkov-3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
